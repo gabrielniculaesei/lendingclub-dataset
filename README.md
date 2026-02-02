@@ -17,12 +17,15 @@ This project performs a comprehensive credit risk analysis on the LendingClub da
 
 ```
 lendingclub-dataset/
-├── faad.ipynb          # Main analysis notebook
-├── Presentation.pdf    # Project presentation
-├── loans.csv           # Dataset
-└── README.md           # This file
+├── data/
+│   └── loans.csv           # Dataset
+├── notebooks/
+│   └── faad.ipynb          # Main analysis notebook
+├── reports/
+│   ├── colab.pdf           # Colab notebook export (PDF)
+│   └── Presentation.pdf    # Project presentation
+└── README.md               # This file
 ```
-
 ## Dataset
 
 The dataset contains information on thousands of loans including:
